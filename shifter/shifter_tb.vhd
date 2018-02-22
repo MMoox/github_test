@@ -39,6 +39,8 @@ architecture func of shifter_tb is
 	wait for 10 * C_CLK_PERIOD;
 	data_i <= b"01010101";
 	assert false report "new data input: 0x55";
+	data_i <= b"00001111";
+	assert false report "new data input: 0x0F";
 	wait;
   end process p_main;
 
