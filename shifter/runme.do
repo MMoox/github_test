@@ -5,4 +5,5 @@ vsim -acdb -acdb_file acdb/tb_test1.acdb -c -L work.lib shifter_tb
 run -all;
 endsim
 acdb report -db acdb/tb_test1.acdb -html -o acdb/tb_test1.html
+acdb2xml -i acdb/tb_test1.acdb -o acdb/tb_test1.xml
 exit
