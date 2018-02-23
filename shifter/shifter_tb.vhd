@@ -15,6 +15,9 @@ architecture func of shifter_tb is
 	signal reset_i : std_logic := '0';
 	signal data_i : std_logic_vector(7 downto 0);
 	signal data_o : std_logic_vector(7 downto 0);
+
+	shared variable END_SIM : boolean := false;
+
   begin
   -----------------------------------------------------------------------------
   -- Instantiate DUT
@@ -33,6 +36,8 @@ architecture func of shifter_tb is
   ------------------------------------------------
   p_main: process
   begin
+	wait for 0 ns;
+	END_SIM := false;
 	wait for 10 * C_CLK_PERIOD;
 	data_i <= b"10101010";
 	assert false report "new data input: 0xAA";
@@ -41,6 +46,7 @@ architecture func of shifter_tb is
 	assert false report "new data input: 0x55";
 	data_i <= b"00001111";
 	assert false report "new data input: 0x0F";
+	END_SIM := true;
 	wait;
   end process p_main;
 
@@ -52,8 +58,14 @@ architecture func of shifter_tb is
   -----------------------------------------------------------------------------  
   p_clk: process
   begin
-    clk_i <= '0', '1' after C_CLK_PERIOD / 2;
-    wait for C_CLK_PERIOD;
+    if(END_SIM = false) then
+    	clk_i <= '0';
+	wait for C_CLK_PERIOD / 2;
+    	clk_i <= '1';
+	wait for C_CLK_PERIOD / 2;
+    else
+	wait;
+    end if;
   end process;
 
 end func;
