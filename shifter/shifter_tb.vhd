@@ -46,6 +46,8 @@ architecture func of shifter_tb is
 	report "new data input: 0x55";
 	data_i <= b"00001111";
 	report "new data input: 0x0F";
+	data_i <= b"11110000";
+	report "new data input: 0x0F";
 	END_SIM := true;
 	wait;
   end process p_main;

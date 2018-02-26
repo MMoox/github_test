@@ -3,18 +3,18 @@
 <ux:attr key="path_separator" type="str">/</ux:attr>
 <ux:attr key="hier_mode" type="int">1</ux:attr>
 <ux:hnode logical_name="tb_test1" physical_name="tb_test1.acdb" type="1">
-<ux:attr key="UCIS:test_status" type="int">2</ux:attr>
+<ux:attr key="UCIS:test_status" type="int">0</ux:attr>
 <ux:attr key="UCIS:compulsory" type="int">0</ux:attr>
 <ux:attr key="UCIS:sim_time" type="double">200000</ux:attr>
-<ux:attr key="UCIS:cpu_time" type="double">0.0024550000000000002</ux:attr>
+<ux:attr key="UCIS:cpu_time" type="double">0.00034000000000000002</ux:attr>
 <ux:attr key="UCIS:cost" type="double">0</ux:attr>
-<ux:attr key="UCIS:date" type="str">2018-02-23 08:39</ux:attr>
+<ux:attr key="UCIS:date" type="str">2018-02-26 08:48</ux:attr>
 <ux:attr key="UCIS:time_unit" type="str">ps</ux:attr>
 <ux:attr key="UCIS:run_cwd" type="str">/home/moox/git/github_test/shifter</ux:attr>
 <ux:attr key="UCIS:seed" type="str">1</ux:attr>
 <ux:attr key="UCIS:cmd" type="str"></ux:attr>
 <ux:attr key="UCIS:args" type="str">asim -acdb -acdb_file acdb/tb_test1.acdb -c -L work.lib shifter_tb</ux:attr>
-<ux:attr key="UCIS:username" type="str">moox</ux:attr>
+<ux:attr key="UCIS:username" type="str">jenkins</ux:attr>
 <ux:attr key="UCIS:associated" type="int">1</ux:attr>
 <ux:attr key="UCIS:host_name" type="str">R5575-VM</ux:attr>
 <ux:attr key="UCIS:host_os" type="str">Linux64</ux:attr>
@@ -63,6 +63,12 @@
 <ux:attr key="#GOAL#" type="int">1</ux:attr>
 <ux:attr key="#SINDEX#" type="int">1</ux:attr>
 <ux:count type="int">1</ux:count>
+<ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="43" token="1"/>
+</ux:bin>
+<ux:bin name="" type="STMTBIN" flags="00000001">
+<ux:attr key="#GOAL#" type="int">1</ux:attr>
+<ux:attr key="#SINDEX#" type="int">1</ux:attr>
+<ux:count type="int">1</ux:count>
 <ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="44" token="1"/>
 </ux:bin>
 <ux:bin name="" type="STMTBIN" flags="00000001">
@@ -75,7 +81,19 @@
 <ux:attr key="#GOAL#" type="int">1</ux:attr>
 <ux:attr key="#SINDEX#" type="int">1</ux:attr>
 <ux:count type="int">1</ux:count>
+<ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="46" token="1"/>
+</ux:bin>
+<ux:bin name="" type="STMTBIN" flags="00000001">
+<ux:attr key="#GOAL#" type="int">1</ux:attr>
+<ux:attr key="#SINDEX#" type="int">1</ux:attr>
+<ux:count type="int">1</ux:count>
 <ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="47" token="1"/>
+</ux:bin>
+<ux:bin name="" type="STMTBIN" flags="00000001">
+<ux:attr key="#GOAL#" type="int">1</ux:attr>
+<ux:attr key="#SINDEX#" type="int">1</ux:attr>
+<ux:count type="int">1</ux:count>
+<ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="48" token="1"/>
 </ux:bin>
 <ux:bin name="" type="STMTBIN" flags="00000001">
 <ux:attr key="#GOAL#" type="int">1</ux:attr>
@@ -194,6 +212,12 @@
 <ux:attr key="#GOAL#" type="int">1</ux:attr>
 <ux:attr key="#SINDEX#" type="int">1</ux:attr>
 <ux:count type="int">1</ux:count>
+<ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="43" token="1"/>
+</ux:bin>
+<ux:bin name="" type="1000000" flags="00000001">
+<ux:attr key="#GOAL#" type="int">1</ux:attr>
+<ux:attr key="#SINDEX#" type="int">1</ux:attr>
+<ux:count type="int">1</ux:count>
 <ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="44" token="1"/>
 </ux:bin>
 <ux:bin name="" type="1000000" flags="00000001">
@@ -206,7 +230,19 @@
 <ux:attr key="#GOAL#" type="int">1</ux:attr>
 <ux:attr key="#SINDEX#" type="int">1</ux:attr>
 <ux:count type="int">1</ux:count>
+<ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="46" token="1"/>
+</ux:bin>
+<ux:bin name="" type="1000000" flags="00000001">
+<ux:attr key="#GOAL#" type="int">1</ux:attr>
+<ux:attr key="#SINDEX#" type="int">1</ux:attr>
+<ux:count type="int">1</ux:count>
 <ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="47" token="1"/>
+</ux:bin>
+<ux:bin name="" type="1000000" flags="00000001">
+<ux:attr key="#GOAL#" type="int">1</ux:attr>
+<ux:attr key="#SINDEX#" type="int">1</ux:attr>
+<ux:count type="int">1</ux:count>
+<ux:src file="/home/moox/git/github_test/shifter/shifter_tb.vhd" line="48" token="1"/>
 </ux:bin>
 <ux:bin name="" type="1000000" flags="00000001">
 <ux:attr key="#GOAL#" type="int">1</ux:attr>
