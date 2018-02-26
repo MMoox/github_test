@@ -40,12 +40,12 @@ architecture func of shifter_tb is
 	END_SIM := false;
 	wait for 10 * C_CLK_PERIOD;
 	data_i <= b"10101010";
-	assert false report "new data input: 0xAA";
+	report "new data input: 0xAA";
 	wait for 10 * C_CLK_PERIOD;
 	data_i <= b"01010101";
-	assert false report "new data input: 0x55";
+	report "new data input: 0x55";
 	data_i <= b"00001111";
-	assert false report "new data input: 0x0F";
+	report "new data input: 0x0F";
 	END_SIM := true;
 	wait;
   end process p_main;
