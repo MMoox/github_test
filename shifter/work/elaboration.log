@@ -1,0 +1,33 @@
+Riviera-PRO 2017.10.67.6735(Linux64) 2018-04-09 17:17:19
+
+Elaboration top modules:
+Architecture                  func(shifter_tb)
+
+
+----------------------------------------------------------------------------------------
+Entity     | Architecture | Library | Info | Compiler Version     | Compilation Options
+----------------------------------------------------------------------------------------
+shifter_tb | func         | work    |      | 2017.10.67 (Linux64) |  -2008
+shifter    | rtl          | work    |      | 2017.10.67 (Linux64) |  -2008
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+VHDL Package              | Library | Info | Compiler Version     | Compilation Options
+----------------------------------------------------------------------------------------
+standard                  | std     |      |                      | <unavailable>
+TEXTIO                    | std     |      |                      | <unavailable>
+std_logic_1164            | ieee    |      |                      | <unavailable>
+NUMERIC_STD               | ieee    |      |                      | <unavailable>
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+Library                   | Comment
+----------------------------------------------------------------------------------------
+ieee                      | Standard IEEE packages library
+std                       | Standard VHDL library
+work                      | None
+----------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -c -L work.lib shifter_tb
+

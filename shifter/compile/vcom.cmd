@@ -1,0 +1,1 @@
+ -d /home/moox/git/github_test/shifter/compile -s /home/moox/git/github_test/shifter/library.cfg -2008 shifter.vhd shifter_tb.vhd -work work

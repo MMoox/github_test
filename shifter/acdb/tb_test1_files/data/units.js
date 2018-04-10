@@ -1,0 +1,1 @@
+$.extend( Report.units,{"inst-1":"du-1","inst-2":"du-2"});
