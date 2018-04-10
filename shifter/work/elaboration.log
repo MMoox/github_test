@@ -1,4 +1,4 @@
-Riviera-PRO 2017.10.67.6735(Linux64) 2018-04-09 17:17:19
+Riviera-PRO 2017.10.67.6735(Linux64) 2018-04-10 10:13:08
 
 Elaboration top modules:
 Architecture                  func(shifter_tb)
@@ -7,8 +7,8 @@ Architecture                  func(shifter_tb)
 ----------------------------------------------------------------------------------------
 Entity     | Architecture | Library | Info | Compiler Version     | Compilation Options
 ----------------------------------------------------------------------------------------
-shifter_tb | func         | work    |      | 2017.10.67 (Linux64) |  -2008
-shifter    | rtl          | work    |      | 2017.10.67 (Linux64) |  -2008
+shifter_tb | func         | work    |      | 2017.10.67 (Linux64) | -dbg -2008
+shifter    | rtl          | work    |      | 2017.10.67 (Linux64) | -dbg -2008
 ----------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------

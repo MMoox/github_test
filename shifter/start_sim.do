@@ -1,4 +1,4 @@
 vlib -c work
-vcom -2008 shifter.vhd shifter_tb.vhd -work work
+vcom -2008 -dbg *.vhd -work work
 vsim -c -L work.lib shifter_tb
 run
